@@ -7,19 +7,24 @@
 body {
     margin: 0;
     font-size: 16px;
-    color: #353b48;
     line-height: 1.7;
   }
   
-  .container {
+  
+  .btc-pic {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/694/620/62/gold-black-coin-bitcoin-bitcoin-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: fixed;
+    max-width: 100%;
+    height: 800px;
+}
+
+.container {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 auto;
-  }
-  
-  section {
-    padding-top: 96px;
-    padding-bottom: 96px;
   }
 
   /* Navigation */
@@ -28,9 +33,9 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    background-color: #fbc531;
     display: flex;
     justify-content: flex-end;
+    margin-right: 20px;
   }
 
   .navigation li {
@@ -45,3 +50,51 @@ body {
     text-decoration: none; 
 }
 
+/* Header */
+    
+    .btc-pic{
+        position:relative;
+    }
+
+    header {
+        position: absolute;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .page-title {
+        font-weight: bolder;
+        font-size: 45px;
+    }
+
+    .page-subtitle {
+        font-size: 50px;
+        word-spacing: 15px;
+        font-weight: bolder;
+    }
+
+    .button {
+        min-width: 160px;
+        color: white;
+        font-weight: bolder;
+        margin: 24px auto 0 auto;
+        padding: 16px;
+        border-radius: 5px;
+        font-size: 16px;
+        text-decoration: none;
+        cursor: pointer;
+        border-width: 2px;
+        border-style: solid;
+        border-color: yellow;
+        background-color: red;
+        background-position: 100% 0;
+        background-size: 300%; 
+    }
+
+    .button:hover {
+        background-color: black;
+        color: yellowgreen;
+    }
