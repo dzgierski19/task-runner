@@ -1,0 +1,45 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  color: #353b48;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+/* Navigation */
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #fbc531;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation li {
+  margin: 18px;
+}
+
+.navigation a {
+  color: white;
+}
+
+.navigation a:link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
